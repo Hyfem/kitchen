@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+}
+body{
+    background-color: #eeeee6;    padding: 10px;
+
+    
+
+}
+main{
+    padding: 30px;
+}
+header{
+    font-size: larger;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+a{
+    text-align: center;
+    color: red;
+    text-align: center;
+    padding:10px;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    height: 400px;
+    max-width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width: 100%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 400px;
+    
+
+}
+main{
+    border: 1px solid yellow;
+    display: flex;
+
+}
+
+.swiper .swiper-button-prev, 
+.swiper .swiper-button-next
+{
+    color: #fff;
+
+    
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background-color: #fff;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article img{
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(0 50px 20px #0009);
+}
+article div{
+    width: 350px;
+    height: 350px;
+    margin: 5px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+}
+
+footer div{
+    height: 100px;
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+}
+.fimg{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fimg img{
+    width: 40px;
+    height: 40px;
+}
+.skull{
+    height: 100px;
+    width: 100px;
+
+}
+.skull img{
+    max-width: 100%;
+    height: 100%;
+}
+.menuBtn{
+    border: 1px solid #eeeee6;
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    margin-right: 50px;
+    
+    
+
+}
+.artc{
+    width: 250px;
+    padding: 40px;
+}

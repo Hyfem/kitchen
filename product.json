@@ -1,0 +1,38 @@
+[
+{
+    "id": 1,
+    "name": "red velvet",
+    "price": 20,
+    "image": "images/red velvet cake with whiptcream.jpg"
+},
+{
+    "id": 2,
+    "name": "choco parfait",
+    "price": 5,
+    "image": "images/cake perfait choco.jpg"
+},
+{
+    "id": 3,
+    "name": "cake Dst",
+    "price": 50,
+    "image": "images/cake rage.jpg"
+},
+{
+    "id": 4,
+    "name":"chocolate",
+    "price": 15,
+    "image": "images/chocolate cake slice.jpg"
+},
+{
+    "id": 5,
+    "name": "vanilla",
+    "price": 100,
+    "image": "images/vanila cake slice with strawberry.jpg"
+},
+{
+    "id": 6,
+    "name":"cake parfait",
+    "price": 9,
+    "image": "images/cake perfait choco.jpg"
+}
+]

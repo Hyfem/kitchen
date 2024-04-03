@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cakes after food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header>
+        <a href="index.html">HOME</a>
+        <a href="product.html">PRODUCTS</a>
+        <a href="about.html">ABOUT</a>
+        <a href="loging.html" class="icn">
+            <span class="material-symbols-outlined">passkey</span>
+        </a>
+    </header>
+    <main>
+        <div class="container">
+        <!-- Slider main container -->
+       <div class="swiper">
+       <!-- Additional required wrapper -->
+       <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="images/chocolate cake slice.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="images/vanila cake slice with strawberry.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="images/red velvet cake with whiptcream.jpg" alt=""></div>
+      
+       </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+  
+        <!-- If we need navigation buttons -->
+       <div class="swiper-button-prev"></div>
+       <div class="swiper-button-next"></div>
+  
+    
+        </div>
+  
+        </div>
+
+          
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                autoplay: {
+                    delay: 3000,
+                    disableOnImteraction: false,
+                },
+                loop: true,
+
+  
+    pagination: {
+      el: '.swiper-pagination',
+      ciickable: true,
+    },
+  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+  });
+  
+        </script> <br>
+             
+    </main>
+    <article>
+        <div>
+            <img src="images/fruit perfait.jpg" alt="">
+        </div>
+        <div class="artc">
+            <h1>CAKES AFTER FOOD </h1>
+            <h2>we have the best cakes <br> and food</h2>
+            <p><b>that will satisfy your craves</b></p>
+            <p>you can check our menu below</p>
+            <a href="product.html"><button class="menuBtn">CHECK MENU</button></a>
+        </div>
+    </article> 
+    <footer>
+        <div>
+            <p><b>
+                Email <br>
+                 Ifemi18100@gmai.com <br>
+                 ifemi18100@outlook.com
+                Ayindeyusufifemi18100@gmail.com
+            </b></p>
+        </div>
+        <div class="fimg">
+            <a href="https://github.com"><img src="images/git.jpg" alt=""></a>
+            <a href="https://www.linkedin.com/in/yusuf-ayinde-a9251a297/"><img src="images/linkd.jpg" alt=""></a>
+            <a href="https://www.instagram.com/hyfem_box/"><img src="images/ig.jpg" alt=""></a>
+            <a href="https://twitter.com/Hyfem_Box"><img src="images/x logo.jpg" alt=""></a>
+            <a href="https://t.me/Wildbag"><img src="images/tele.jpeg" alt=""></a>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>

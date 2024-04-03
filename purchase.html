@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="purchase.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">HOME</a>
+        <a href="product.html">PRODUCTS</a>
+        <a href="about.html">ABOUT</a>
+    </header>
+    <main style="text-align: center;">
+        <div class="box1">
+            <img src="images/logologo.jpg" alt="">
+        </div>
+        <div class="box1">
+            <h1>Purchase</h1>
+            <!-- below is my form -->
+            <form id="purchase-form">
+                <div id="items">
+                    <!-- this space is where cart item will be displayed  -->
+                </div>
+                <div class="total-price">Total Price: $<span id="total-price">0.00</span></div>
+                <button type="submit" id="confirm-purchase" onclick="alert('Successful! Check your email for receipt.');">Confirm Purchase</button>
+            </form>
+            <!-- i wrapped everything in form  -->
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p><b>
+                Email <br>
+                Ifemi18100@gmai.com <br>
+                ifemi18100@outlook.com
+                Ayindeyusufifemi18100@gmail.com
+            </b></p>
+        </div>
+        <div class="fimg">
+            <a href="https://github.com"><img src="images/git.jpg" alt=""></a>
+            <a href="https://www.linkedin.com/in/yusuf-ayinde-a9251a297/"><img src="images/linkd.jpg" alt=""></a>
+            <a href="https://www.instagram.com/hyfem_box/"><img src="images/ig.jpg" alt=""></a>
+            <a href="https://twitter.com/Hyfem_Box"><img src="images/x logo.jpg" alt=""></a>
+            <a href="https://t.me/Wildbag"><img src="images/tele.jpeg" alt=""></a>
+        </div>
+    </footer>
+    <script src="js/purchase.js" defer></script>
+</body>
+</html>

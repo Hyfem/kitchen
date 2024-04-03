@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+}
+body{
+    background-color: pink;
+    
+
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.material-symbols-outlined a{
+  font-size: 40px;
+  color: purple;
+  text-align: righ;
+  text-decoration: none;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+a{
+    text-align: center;
+    color: red;
+    text-align: center;
+    padding:10px;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form.log{
+    text-align: center;
+}
+.box1{
+    border: 1px solid pink;
+    width: 300px;
+    height: 500px;
+    background-color: pink;
+    margin: 10px;
+    overflow: hidden;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+}
+.box2{
+    background-color: rbg(255, 355, 355, 0.5);
+    height: 600px;
+    width: 60%;
+    padding: 25px;
+    overflow: hidden;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+}
+
+footer div{
+    height: 100px;
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+}
+.fimg{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fimg img{
+    width: 40px;
+    height: 40px;
+}
+.skull{
+    height: 100px;
+    width: 100px;
+
+}
+.skull img{
+    max-width: 100%;
+    height: 100%;
+}
